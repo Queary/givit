@@ -6,3 +6,34 @@
 body{
   background:#787878;
 }
+
+header{
+  width:80%;
+  height:10%;
+  background: #343434;
+  float:left;
+  margin-top:5%;
+  margin-left:10%;
+}
+
+header ol{
+  width:80%;
+  list-style-type:none;
+}
+
+header ol li{
+  width:10%;
+  height:100%;
+  background:#232323;
+  margin-left:1%;
+  display:block;
+  float:left;
+  padding:1.5%;
+  padding-right:0%;
+  padding-left:0%;
+  text-align:center;
+}
+
+.mainblock{
+  float:left;
+}
