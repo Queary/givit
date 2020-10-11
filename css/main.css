@@ -35,5 +35,12 @@ header ol li{
 }
 
 .mainblock{
+  width:50%;
+  height:250px;
+  padding:1.5%;
+  margin-left:10%;
+  margin-top:5%;
   float:left;
+  display:block;
+  background:#555555;
 }
