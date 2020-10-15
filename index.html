@@ -20,7 +20,18 @@
       <h3>Главная страница сайта</h3>описание...
     </div>
     <div class="mainblock_left">
-      he
+      <center>меню</center>
     </div>
   </body>
+  <script type="text/javascript">
+    var color = 0
+    setInterval(function functionName() {
+      color+=1
+      console.log(color)
+      if(color == 1){document.getElementById("head_header").style.boxShadow = '0px 0px 10px 5px blue'}
+      if(color == 2){document.getElementById("head_header").style.boxShadow = '0px 0px 15px green'}
+      if(color == 3){document.getElementById("head_header").style.boxShadow = '0px 0px 10px purple'}
+      if(color == 4){color = 0}
+    },300)
+  </script>
 </html>
