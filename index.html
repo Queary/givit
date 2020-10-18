@@ -25,13 +25,15 @@
   </body>
   <script type="text/javascript">
     var color = 0
+    var color1= 111111
+    var st    = 0
     setInterval(function functionName() {
-      color+=1
-      console.log(color)
-      if(color == 1){document.getElementById("head_header").style.boxShadow = '0px 0px 15px 5px #00b899'}
-      if(color == 2){document.getElementById("head_header").style.boxShadow = '0px 0px 30px #00bfff'}
-      if(color == 3){document.getElementById("head_header").style.boxShadow = '0px 0px 15px #d77d31'}
-      if(color == 4){color = 0}
-    },300)
+      if(st == 0){color1 += 111111;}
+      if(color1 >999999){st = 1;color1-=111111}
+      if(st == 1){color1 -= 111111;}
+      if(color1 <111111){st = 0}
+      console.log(color1)
+      document.getElementById("head_header").style.boxShadow = '0px 0px 15px 5px #'+ color1
+    },100)
   </script>
 </html>

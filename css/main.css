@@ -1,18 +1,21 @@
+/* #686869	#353536	#242425	#19191b	#0c0c10 */
+/* #424424 - color */
+
 *{
   padding:0px;
   margin:0px;
-  color:#f0f8ff;
+  color:#727727;
   box-shadow: 0px 0px 10px #123123;
 }
 
 body{
-  background:#0a0a0a;
+  background:#0c0c10;
 }
 
 #head_header{
   width:80%;
   height:100px;
-  background:#2c3136;
+  background:#353536;
   margin-top:5%;
   margin-left:10%;
   float:left;
@@ -20,8 +23,10 @@ body{
   text-align:center;
   line-height:55px;
   font-size:200%;
+  ;
 }
 #head_header p:nth-child(1){
+  color:#0e1821;
   font-size:150%;
   line-height:80px;
   /* background:#123123; */
@@ -30,6 +35,7 @@ body{
 #head_header p:nth-child(2){
   font-size:50%;
   line-height:0px;
+  color:#0e1821;
   /* background:#234234; */
 }
 
@@ -37,7 +43,7 @@ body{
 header{
   width:80%;
   height:10%;
-  background: #2f353b;
+  background: #19191b;
   float:left;
   margin-left:10%;
   box-shadow:none;
@@ -51,7 +57,7 @@ header ol{
 header ol li{
   width:10%;
   height:100%;
-  background:#444;
+  background:#242425;
   margin-left:1%;
   display:block;
   float:left;
@@ -90,7 +96,7 @@ header ol li{
   margin-top:5%;
   float:left;
   display:block;
-  background:#151719;
+  background:#19191b;
 }
 
 .mainblock h3{
@@ -105,7 +111,7 @@ header ol li{
   margin-top:5%;
   margin-right:10%;
   float:right;
-  background:#151719;
+  background:#19191b;
 }
 
 .mainblock_left center{
